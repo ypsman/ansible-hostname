@@ -22,7 +22,7 @@ install:
   - printf '[defaults]\nroles_path=../' >ansible.cfg
 
   # Install role from ansible Galaxy
-  - ansible-galaxz install ypsman.hostname
+  - ansible-galaxy install ypsman.hostname
 
 script:
   # Basic role syntax check
