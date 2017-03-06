@@ -1,0 +1,9 @@
+---
+# tasks file for hostname
+- hostname:
+    name: "{{ host_name }}"
+  when: host_name is defined
+
+- name: changing /etc/hosts
+  command: sed -i "s/^127.0.1.1.*/127.0.1.1 {{ host_name }}/" /etc/hosts
+  when: host_name is defined

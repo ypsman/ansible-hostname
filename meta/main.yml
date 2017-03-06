@@ -1,0 +1,19 @@
+galaxy_info:
+  author: ypsman
+  description: Change Hostname and in hostsfile
+  license: license (GPLv2, CC-BY, etc)
+  min_ansible_version: 1.2
+  platforms:
+  - name: Debian
+    versions:
+    - wheezy
+    - jessie
+    - stretch
+  - name: Ubuntu
+    versions: all
+  galaxy_tags:
+  - hosts
+  - hostname
+  - Ubuntu
+  - debian
+dependencies: []
