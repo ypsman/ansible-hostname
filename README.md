@@ -2,7 +2,7 @@ ansible hostname
 ================
 [![Build Status](https://travis-ci.org/ypsman/ansible-hostname.svg?branch=master)](https://travis-ci.org/ypsman/ansible-hostname)
 
-Change Hostname and entrie in /etc/hosts
+Change Hostname and localhost entrie in /etc/hosts
 
 It will only Change if you set a hostname Variable - {{ host_name }}
 
