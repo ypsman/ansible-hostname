@@ -4,7 +4,7 @@ ansible hostname
 
 Change Hostname and entrie in /etc/hosts
 
-It will only Change if you set a hostname Variable - host_name
+It will only Change if you set a hostname Variable - {{ host_name }}
 
 Best way is to set host_name Var in your inventory File.
 
